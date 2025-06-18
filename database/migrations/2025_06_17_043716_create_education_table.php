@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('location')->nullable();
             $table->year('start_year')->nullable();
             $table->year('end_year')->nullable();
+            $table->string('passing_year')->nullable();
             $table->boolean('is_current')->default(false);
             $table->text('description')->nullable();
             $table->timestamps();

@@ -43,15 +43,17 @@ class EducationResource extends Resource
                     'Master' => 'Master',
                     'PhD' => 'PhD',
                 ])->required()->label('Degree'),
+                TextInput::make('result')->label('Result')->required(),
                 TextInput::make('institute')->required()->label('Institute'),
                 TextInput::make('field')->label('Field of Study'),
                 TextInput::make('location')->label('Location'),
                 TextInput::make('start_year')->numeric()->label('Start Year'),
                 TextInput::make('end_year')->numeric()->label('End Year'),
+                TextInput::make('passing_year')->numeric()->label('Passing Year'),
                 
             ])->columns(2)->columnSpan(2)->collapsed(false),
             Section::make('Details')->schema([
-                    Textarea::make('description')->label('Description')->rows(7),
+                    Textarea::make('description')->label('Description')->rows(10),
                     Toggle::make('is_current')->label('Currently Studying'),
                 ])->columns(1)->columnSpan(1)->collapsed(false),
             ])
@@ -64,6 +66,10 @@ class EducationResource extends Resource
             ->columns([
                 TextColumn::make('degree')
                     ->label('Degree')
+                    ->sortable()
+                    ->searchable(),
+                TextColumn::make('result')
+                    ->label('Result')
                     ->sortable()
                     ->searchable(),
                 TextColumn::make('institute')
