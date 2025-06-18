@@ -31,6 +31,7 @@ class ContactResource extends Resource
     protected static ?string $navigationIcon = 'heroicon-o-chat-bubble-left';
 
     protected static ?string $navigationGroup = 'Contact';
+    protected static ?int $navigationSort = 4;
 
     public static function form(Form $form): Form
     {
