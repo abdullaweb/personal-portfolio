@@ -20,6 +20,34 @@
     <!-- Custom Css -->
     <link href="{{ asset('frontend/css/style.min.css') }}" rel="stylesheet" type="text/css" id="theme-opt">
     <link href="{{ asset('frontend/css/colors/default.css') }}" rel="stylesheet" id="color-opt">
+
+    <style>
+    .bg-home {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .bg-home .bg-blur {
+        /* background-image: url('frontend/images/home/02.jpeg'); */
+        background-color: #000;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%;
+        height: 75%;
+        /* filter: blur(6px); */
+        /* opacity: 0.3; */
+        z-index: 1;
+    }
+
+    .content-layer {
+        position: relative;
+        z-index: 2;
+        /* padding: 100px 0; */
+    }
+
+    </style>
 </head>
 
 <body>
@@ -28,7 +56,7 @@
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light sticky">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <h6>Code By Abdullah</h6>
+                <h6 class="text-primary">Code By Abdullah</h6>
                 <!-- <img src="images/logo.png" class="logo-light-mode" alt="">
                     <img src="images/logo-light.png" class="logo-dark-mode" alt=""> -->
             </a>
@@ -39,40 +67,30 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul id="navbar-navlist" class="navbar-nav navbar-nav-link mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link text-light" href="#home">Home</a>
                     </li><!--end nav item-->
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link text-light" href="#services">Services</a>
                     </li><!--end nav item-->
                     <li class="nav-item">
-                        <a class="nav-link" href="#resume">Resume</a>
+                        <a class="nav-link text-light" href="#resume">Resume</a>
                     </li><!--end nav item-->
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
+                        <a class="nav-link text-light" href="#projects">Projects</a>
                     </li><!--end nav item-->
                     <li class="nav-item">
-                        <a class="nav-link" href="#news">Blog</a>
+                        <a class="nav-link text-light" href="#news">Blog</a>
                     </li><!--end nav item-->
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link text-light" href="#contact">Contact</a>
                     </li><!--end nav item-->
-                    <li class="btn-group nav-item">
-                        <button type="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                            Pages
-                        </button>
-                        <ul class="dropdown-menu rounded border-0 shadow">
-                            <li><a class="dropdown-item" href="page-blog.html">Blog</a></li>
-                            <li><a class="dropdown-item" href="page-blog-detail.html">Blog Detail</a></li>
-                            <li><a class="dropdown-item" href="page-portfolio.html">Portfolio</a></li>
-                            <li><a class="dropdown-item" href="page-portfolio-detail.html">Portfolio Detail</a></li>
-                        </ul>
-                    </li>
+                    
                 </ul>
 
                 <ul class="list-unstyled mb-0 mt-2 mt-sm-0 social-icon">
-                    <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-facebook"></i></a></li>
-                    <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-instagram"></i></a></li>
+                    <li class="list-inline-item text-light"><a href="javascript:void(0)"><i class="mdi mdi-facebook"></i></a></li>
+                    <li class="list-inline-item text-light"><a href="javascript:void(0)"><i class="mdi mdi-twitter"></i></a></li>
+                    <li class="list-inline-item text-light"><a href="javascript:void(0)"><i class="mdi mdi-instagram"></i></a></li>
                 </ul>
             </div>
         </div><!--end container-->
@@ -80,31 +98,29 @@
     <!-- Navbar End -->
 
     <!-- HOME START-->
-    <section class="bg-home bg-light d-table w-100 position-relative" style="background-image:url('frontend/images/home/02.jpeg');" id="home">
-        <!-- Blurred background overlay -->
-        <div class="container position-relative" style="z-index:2;">
+   <section class="bg-home bg-light d-table w-100 h-50 position-relative" id="home">
+    <!-- Background Image with Blur -->
+    <div class="bg-blur"></div>
+        <div class="container position-relative content-layer" style="z-index:2;">
             <div class="row align-items-center">
                 <div class="col-lg-12">
-                    <div class="title-heading mt-5">
-                        <h6 class="sub-title">Looking for a Designer !</h6>
+                    <div class="title-heading">
+                        <h6 class="sub-title text-light">Looking for a Designer !</h6>
                         <h1 class="heading text-light mb-3">I'm Abdulla Al Faruq</h1>
                         <p class="para-desc text-light">Obviously I'm a Web Designer. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects.</p>
                         <div class="mt-4 pt-2">
                             <a href="javascript:void(0)" class="btn btn-primary rounded mb-2 me-2">Hire me</a>
-                            <a href="javascript:void(0)" class="btn btn-outline-primary rounded mb-2">Download CV <i data-feather="download" class="fea icon-sm"></i></a>
+                            <a href="javascript:void(0)" class="btn btn-outline-primary rounded mb-2 text-primary">Download CV <i data-feather="download" class="fea icon-sm"></i></a>
                         </div>
                     </div>
                 </div><!--end col-->
             </div><!--end row-->
         </div><!--end container-->
-        <a href="#about" data-scroll-nav="1" class="mouse-icon rounded-pill bg-transparent mouse-down" style="z-index:2; position:relative;">
-            <span class="wheel position-relative d-block mover"></span>
-        </a>
     </section><!--end section-->
     <!-- HOME END-->
 
     <!-- About Start -->
-    <section class="section pb-3" id="about">
+    <section class="section pb-3 pt-0" id="about">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5 col-md-5">
