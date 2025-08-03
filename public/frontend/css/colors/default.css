@@ -79,7 +79,7 @@
 
 a.text-primary:hover, 
 a.text-primary:focus {
-    color: #fff !important;
+    color: #000 !important;
 }
 
 .btn-primary,
