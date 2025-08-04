@@ -8,7 +8,7 @@
     <meta name="description" content="Abdulla Al Faruqi - Personal Portfolio">
     <meta name="keywords" content="Laravel Developer, Web Developer, Portfolio, Personal Website">
     <!-- favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="{{ asset('logo/favicon_code_by_abdullah.png') }}">
     <!-- Bootstrap -->
     <link href="{{ asset('frontend/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
     <!-- Lightbox -->
