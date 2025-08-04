@@ -35,7 +35,7 @@
 
         .bg-home .bg-blur {
             /* background-image: url('frontend/images/home/02.jpeg'); */
-            background-color: #000;
+            background-color: #0b1120;
             background-size: cover;
             background-position: center;
             position: absolute;
