@@ -77,7 +77,7 @@
             color: #495057 !important;
         }
 
-        #about, #resume p {
+        #about, #resume, #home p {
             text-align: justify !important;
         }
 
