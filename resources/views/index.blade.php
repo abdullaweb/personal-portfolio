@@ -90,10 +90,6 @@
             transform: translateY(-6px) scale(1.03);
             z-index: 2;
         }
-
-        .bg-light {
-            background: linear-gradient(to bottom, #0b1120, #111827) !important;
-        }
     </style>
 </head>
 
