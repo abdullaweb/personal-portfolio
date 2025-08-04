@@ -152,10 +152,11 @@
             <div class="row align-items-center">
                 <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
                     <div class="title-heading">
-                        <h6 class="sub-title text-light">Looking for a Designer !</h6>
+                        <h6 class="sub-title text-light">Looking for a Software Developer!</h6>
                         <h1 class="heading text-light mb-3">I'm Abdulla Al Faruq</h1>
-                        <p class="para-desc text-light">Obviously I'm a Web Designer. Web Developer with over 3 years of
-                            experience. Experienced with all stages of the development cycle for dynamic web projects.
+                        <p class="para-desc text-light">
+                            I'm a Software and Web Developer with over 3 years of experience, skilled in managing all phases of the development lifecycle for dynamic web applications. I specialize in building responsive, user-friendly, and scalable web solutions using modern technologies.
+
                         </p>
                         <div class="mt-4 pt-2">
                             <a href="javascript:void(0)" class="btn btn-primary rounded mb-2 me-2">Hire me</a>
@@ -189,13 +190,9 @@
                         <h4 class="title text-primary mb-3">Abdulla Al Faruq</h4>
                         <h6 class="designation mb-3">I'm a Passionate <span class="text-primary">Software
                                 Developer</span></h6>
-                        <p class="text-dark">Obviously I'm a Software Developer. Web Developer with over 3 years of
-                            experience. Experienced with all stages of the development cycle for dynamic web projects.
-                            The as opposed to using 'Content here, content here', making it look like readable English.
+                        <p class="text-dark">Obviously, I’m a dedicated Software Developer and Web Developer with over 3 years of hands-on experience. Skilled in every phase of the web development cycle, I specialize in creating dynamic, responsive, and performance-driven web applications using Laravel and PHP
                         </p>
-                        <p class="text-dark">The point of using Lorem Ipsum is that it has a more-or-less normal
-                            distribution of letters, as opposed to using 'Content here, content here', making it look
-                            like readable English.</p>
+                        <p class="text-dark"> My focus is on writing clean, maintainable code and delivering user-centric solutions that are both functional and intuitive—built to meet real-world needs with clarity and purpose.</p>
                         <img src="images/sign.png" height="22" alt="">
                         <!-- <div class="mt-4">
                             <a href="#projects" class="btn btn-primary mouse-down">View Portfolio</a>
