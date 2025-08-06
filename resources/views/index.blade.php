@@ -171,7 +171,7 @@
                     </div>
                 </div><!--end col-->
                 <div class="col-lg-6 text-center" data-aos="fade-left" data-aos-delay="200">
-                    <img src="{{ asset('frontend/images/Abdullah.png') }}" class="img-fluid" alt="Abdulla Al Faruq">
+                    <img src="{{ asset('frontend/images/Abdullah.png') }}" class="img-fluid d-none d-lg-block" alt="Abdulla Al Faruq">
                 </div><!--end col-->
             </div><!--end row-->
         </div><!--end container-->
