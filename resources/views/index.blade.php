@@ -578,7 +578,7 @@
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
                     <a href="#">
-                        <h3>Code By Abdullah</h3>
+                        <h3 class="text-light">Code By Abdullah</h3>
                     </a>
                     <p class="para-desc mx-auto mt-5">Obviously I'm a Software Developer. Experienced with all stages of
                         the development cycle for dynamic web projects.</p>
