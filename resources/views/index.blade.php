@@ -90,6 +90,10 @@
             transform: translateY(-6px) scale(1.03);
             z-index: 2;
         }
+
+        .timeline-page .timeline-item .event .timeline-subtitle {
+            text-align: justify !important;
+         }
     </style>
 </head>
 
