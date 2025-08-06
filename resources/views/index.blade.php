@@ -589,18 +589,38 @@
                     <p class="para-desc mx-auto mt-5">Obviously I'm a Software Developer. Experienced with all stages of
                         the development cycle for dynamic web projects.</p>
                     <ul class="list-unstyled mb-0 mt-4 social-icon">
-                        <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-facebook"></i></a>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/abdullacse" target="_blank" rel="noopener noreferrer">
+                                <i class="mdi mdi-facebook"></i>
+                            </a>
                         </li>
-                        <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-twitter"></i></a>
+                        <li class="list-inline-item">
+                            <a href="https://x.com/AbdullaFar65480" target="_blank" rel="noopener noreferrer">
+                                <i class="mdi mdi-twitter"></i>
+                            </a>
                         </li>
-                        <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-instagram"></i></a>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/abdullaalfaruq103694" target="_blank" rel="noopener noreferrer">
+                                <i class="mdi mdi-instagram"></i>
+                            </a>
                         </li>
-                        <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-vimeo"></i></a></li>
-                        <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                    class="mdi mdi-google-plus"></i></a></li>
-                        <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-linkedin"></i></a>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/abdullacse" target="_blank" rel="noopener noreferrer">
+                                <i class="mdi mdi-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.youtube.com/@abdullaalfaruq297" target="_blank" rel="noopener noreferrer">
+                                <i class="mdi mdi-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/abdullaweb" target="_blank" rel="noopener noreferrer">
+                                <i class="mdi mdi-github"></i>
+                            </a>
                         </li>
                     </ul>
+
                 </div><!--end col-->
             </div><!--end row-->
         </div><!--end container-->
