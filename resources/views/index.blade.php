@@ -162,15 +162,15 @@
             <div class="row align-items-center">
                 <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
                     <div class="title-heading">
-                        <h6 class="sub-title text-light">Looking for a Software Developer!</h6>
-                        <h1 class="heading text-light mb-3">I'm Abdulla Al Faruq</h1>
-                        <p class="para-desc text-light">
+                        <h6 class="sub-title text-light fs-6 fs-md-5">Looking for a Software Developer!</h6>
+                        <h1 class="heading text-light mb-3 fs-3 fs-md-1">I'm Abdulla Al Faruq</h1>
+                        <p class="para-desc text-light fs-6 fs-md-5">
                             I'm a Software and Web Developer with over 3 years of experience, skilled in managing all phases of the development lifecycle for dynamic web applications. I specialize in building responsive, user-friendly, and scalable web solutions using modern technologies.
 
                         </p>
                         <div class="mt-4 pt-2 d-flex flex-wrap gap-2">
                             <a href="javascript:void(0)" class="btn btn-primary rounded">Hire me</a>
-                            <a href="javascript:void(0)" class="btn btn-outline-primary rounded text-white">Download CV
+                            <a href="javascript:void(0)" class="btn btn-light btn-outline-primary rounded">Download CV
                                 <i data-feather="download" class="fea icon-sm"></i>
                             </a>
                         </div>
