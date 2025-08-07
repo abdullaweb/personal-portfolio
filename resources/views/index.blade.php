@@ -168,11 +168,11 @@
                             I'm a Software and Web Developer with over 3 years of experience, skilled in managing all phases of the development lifecycle for dynamic web applications. I specialize in building responsive, user-friendly, and scalable web solutions using modern technologies.
 
                         </p>
-                        <div class="mt-4 pt-2">
-                            <a href="javascript:void(0)" class="btn btn-primary rounded mb-2 me-2">Hire me</a>
-                            <a href="javascript:void(0)"
-                                class="btn btn-outline-primary rounded mb-2 text-primary">Download CV <i
-                                    data-feather="download" class="fea icon-sm"></i></a>
+                        <div class="mt-4 pt-2 d-flex flex-wrap gap-2">
+                            <a href="javascript:void(0)" class="btn btn-primary rounded">Hire me</a>
+                            <a href="javascript:void(0)" class="btn btn-outline-primary rounded text-white">Download CV
+                                <i data-feather="download" class="fea icon-sm"></i>
+                            </a>
                         </div>
                     </div>
                 </div><!--end col-->
