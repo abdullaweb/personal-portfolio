@@ -170,7 +170,7 @@
                         </p>
                         <div class="mt-4 pt-2 d-flex flex-wrap gap-2">
                             <a href="javascript:void(0)" class="btn btn-primary rounded">Hire me</a>
-                            <a href="javascript:void(0)" class="btn btn-light btn-outline-primary rounded">Download CV
+                            <a href="https://drive.google.com/file/d/1WB2l8ozMGO_dbk4t06U-eb5dn8ghZ-Gz/view?usp=sharing" class="btn btn-light btn-outline-primary rounded" download>Download CV
                                 <i data-feather="download" class="fea icon-sm"></i>
                             </a>
                         </div>
